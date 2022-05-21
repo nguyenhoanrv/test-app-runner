@@ -13,7 +13,7 @@ import { UserModule } from './user/user.module';
       host: DB_HOST,
       port: DB_PORT,
       username: 'test',
-      password: DB_PASS,
+      password: 'testtest',
       database: DB_NAME,
       entities: [User],
       synchronize: true,
