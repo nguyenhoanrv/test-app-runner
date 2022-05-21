@@ -10,11 +10,11 @@ import { UserModule } from './user/user.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: DB_HOST,
+      host: 'test-nest-app-db.cluster-cgfcarg5bzgl.us-east-1.rds.amazonaws.com',
       port: DB_PORT,
-      username: 'test',
+      username: 'admin',
       password: 'testtest',
-      database: DB_NAME,
+      database: 'testdb',
       entities: [User],
       synchronize: true,
     }),
