@@ -12,7 +12,7 @@ import { UserModule } from './user/user.module';
       type: 'mysql',
       host: DB_HOST,
       port: DB_PORT,
-      username: DB_USER,
+      username: 'test',
       password: DB_PASS,
       database: DB_NAME,
       entities: [User],
